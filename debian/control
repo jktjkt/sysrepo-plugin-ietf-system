@@ -1,0 +1,12 @@
+Source: sysrepo-plugin-ietf-system
+Priority: optional
+Maintainer: Jan Kundrát <jan.kundrat@cesnet.cz>
+Build-Depends: debhelper (>= 9), cmake, sysrepo-dev
+Standards-Version: 3.9.6
+Homepage: https://github.com/sysrepo/sysrepo-plugin-ietf-system
+
+Package: sysrepo-plugin-ietf-system
+Section: admin
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Sysrepo plugin for basic system management
